@@ -8,6 +8,7 @@ import WelcomeMessage from "./components/WelcomeMessage";
 
 
 
+
 function App() {
   
 
@@ -28,6 +29,7 @@ const handleDeleteItem = (todoItemName) =>{
 }
   
   return (
+  
 <center className='container'>
   <AppName></AppName>
   <div className="container">
@@ -36,6 +38,7 @@ const handleDeleteItem = (todoItemName) =>{
    <TodoItems TodoItems={todoItems} onDeleteClick={handleDeleteItem}/>
   </div>
 </center>
+
   )
 }
 
